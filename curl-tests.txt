@@ -9,8 +9,9 @@ curl -i -X GET -H 'Accept: application/json' \
     -H 'Content-type: application/json' http://localhost:3000/programming-languages
 
 curl -i -X PUT -H 'Accept: application/json' \
-    -H 'Content-type: application/json' http://localhost:3000/programming-languages/17 \
+    -H 'Content-type: application/json' http://localhost:3000/programming-languages/18 \
     --data '{"name":"dart", "released_year": 2011, "githut_rank": 12, "pypl_rank": 20, "tiobe_rank": 25}'
 
 curl -i -X DELETE -H 'Accept: application/json' \
-    -H 'Content-type: application/json' http://localhost:3000/programming-languages/17
+    -H 'Content-type: application/json' http://localhost:3000/programming-languages/18
+
